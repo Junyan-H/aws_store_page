@@ -1,0 +1,90 @@
+<!-- This example is following frontend and backend separation.
+
+    This .html performs two steps:
+    1. Create a html template skeleton, with all the elements defined (some left empty) and named with ids.
+    2. Load single-star.js to populate the data into empty elements.
+    -->
+
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Single Movie</title>
+</head>
+<body>
+<div class="container-fluid">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="/cs122b_project1_api_example_war">Fabflix</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ff_nav" aria-controls="ff_nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="ff_nav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/cs122b-project1-api-example/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/cs122b-project1-api-example/movie-list.html">Results</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/cs122b-project1-api-example/top-20.html">Top 20</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/cs122b-project1-api-example/cart.html">Checkout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="list_section">
+        <h2 class="movie_list_title">Payment Page</h2>
+        <br/>
+
+        <h3>Enter Your Payment Information: </h3>
+        <form id="place_order_form" method="get" action="#">
+            <label>
+                <input placeholder="First Name" name="firstName">
+            </label><br/>
+            <label>
+                <input placeholder="Last Name" name="lastName">
+            </label><br/>
+            <label>
+                <input placeholder="Credit Card Number" name="ccNum">
+            </label><br/>
+            <label>
+                <input type="date" placeholder="Expiration Date" name="expDate">
+            </label><br/>
+            <table class="movie_table table table-striped">
+                <thead>
+                <tr>
+                    <th>Amount Due</th>
+                </tr>
+                </thead>
+                <tbody id="total_price"></tbody>
+            </table>
+            <input type="submit" value="Place Order">
+        </form>
+        <br/>
+        <div id="payment_error_message"></div>
+    </section>
+</div>
+
+<!-- Load jQuery and Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="cart-pay.js"></script>
+</body>
+
+
+</html>

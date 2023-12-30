@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <title>Fabflix</title>
+</head>
+<body>
+<div class="container-fluid">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="/cs122b_project1_api_example_war">Fabflix</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ff_nav" aria-controls="ff_nav"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="ff_nav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/cs122b-project1-api-example/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/cs122b-project1-api-example/movie-list.html">Results</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/cs122b-project1-api-example/top-20.html">Top 20</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/cs122b-project1-api-example/cart.html">Checkout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Title -->
+    <h1 id="userWelcomeMsg">FABFLIX - EMPLOYEE DASHBOARD</h1>
+    <br/>
+    <hr>
+
+    <!-- Insert Star Action -->
+    <br/><br/>
+    <h2>Add Records to Fabflix Database</h2><br/>
+    <div>
+        <h3>Insert new star</h3>
+        <form id="add_star_form" method="post" action="#">
+            <label>
+                <input placeholder="Star Name" name="starName" required>
+            </label>
+            <label>
+                <input placeholder="Birth Year" name="starBirthYear">
+            </label>
+            <input type="submit" value="Insert">
+        </form>
+    </div><br/><br/>
+    <div>
+        <h3>Insert new movie</h3>
+        <form id="add_movie_form" method="post" action="#">
+            <label>
+                <input placeholder="Movie Title" name="movieTitle" required>
+            </label>
+            <label>
+                <input placeholder="Year" name="movieYear" required>
+            </label>
+            <label>
+                <input placeholder="Director" name="movieDirector" required>
+            </label>
+            <label>
+                <input placeholder="Star Name" name="movieStarName" required>
+            </label>
+            <label>
+                <input placeholder="Star Birth Year" name="movieStarBirthYear">
+            </label>
+            <label>
+                <input placeholder="Genre Name" name="genreName" required>
+            </label>
+            <input type="submit" value="Insert">
+        </form>
+    </div><br /><br />
+
+    <hr>
+    <!-- Show metadata of database -->
+    <br/><br/>
+    <div>
+        <h3>Metadata of Database</h3>
+        <table class="movie_table table table-striped">
+            <thead>
+            <tr>
+                <th>Table Name</th>
+                <th>Attributes</th>
+                <th>Attribute Types</th>
+            </tr>
+            </thead>
+            <tbody id="metadata_table"></tbody>
+        </table>
+    </div>
+</div>
+
+<footer id="footer">
+    <p>© 2023 Fabflix | All Rights Reserved</p>
+    <p>Kory & Junyan</p>
+</footer>
+
+<!-- Load jQuery and Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+Name: Kenneth Branagh; DOB: null
+Name: Wilford Brimley; DOB: null
+Name: Colin Campbell; DOB: 1937
+Name: William Devane; DOB: null
+Name: Derek Farr; DOB: null
+Name: Charles Farrell; DOB: 1901
+Name: Frances Fisher; DOB: null
+Name: Peter Graves; DOB: 1911
+Name: Laurence Harvey; DOB: 1928
+Name: Nicky Henson; DOB: 1945
+Name: William Holden; DOB: 1918
+Name: Rex Ingram; DOB: 1895
+Name: Charles King; DOB: 1899
+Name: Jack Lambert; DOB: 1920
+Name: Jane March; DOB: 1973
+Name: Spanky McFarland; DOB: null
+Name: Mary Morris; DOB: 1915
+Name: Jennifer ONeill; DOB: 1947
+Name: Raymond Pellegrin; DOB: null
+Name: Harvey Stephens; DOB: 1970
+Name: Sting; DOB: null
+Name: Ann Todd; DOB: 1932
+Name: Beverly Tyler; DOB: 1924
+Name: Vanessa Williams; DOB: 1963

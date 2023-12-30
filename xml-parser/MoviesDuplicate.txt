@@ -1,0 +1,38 @@
+ID: CC80; Title: Limelight; Director: Chaplin; Year: 1952; Genre: Drama 
+ID: FNm10; Title: Doctor Jack; Director: Newmeyer; Year: 1922; Genre: Comedy 
+ID: null; Title: Silk Stockings; Director: Mamoulian; Year: 1957; Genre: Music 
+ID: null; Title: Menschen am Sonntag; Director: R.Siodmak; Year: 1929; Genre: Documentary 
+ID: null; Title: Son of Dracula; Director: R.Siodmak; Year: 1943; Genre: null 
+ID: null; Title: Cobra Woman; Director: R.Siodmak; Year: 1944; Genre: null 
+ID: null; Title: Phantom Lady; Director: R.Siodmak; Year: 1944; Genre: null 
+ID: null; Title: The Spiral Staircase; Director: R.Siodmak; Year: 1945; Genre: Thriller 
+ID: null; Title: Nocturne; Director: R.Siodmak; Year: 1946; Genre: Mystery 
+ID: null; Title: The Killers; Director: R.Siodmak; Year: 1946; Genre: Thriller null 
+ID: null; Title: Criss Cross; Director: R.Siodmak; Year: 1948; Genre: Drama 
+ID: null; Title: The Crimson Pirate; Director: R.Siodmak; Year: 1952; Genre: Action 
+ID: OP13; Title: Forever Amber; Director: Preminger; Year: 1947; Genre: Drama 
+ID: GSt3; Title: The Nitwits; Director: G.Stevens~sr.; Year: 1935; Genre: Comedy 
+ID: PaJ2; Title: Ferry Pilot; Director: P.Jackson; Year: 1941; Genre: Documentary Drama 
+ID: FZ8; Title: The Men; Director: Zinneman; Year: 1950; Genre: Drama Documentary 
+ID: NR1; Title: They Live By Night; Director: N.Ray; Year: 1947; Genre: Drama 
+ID: HyC10; Title: Last Holiday; Director: Cass; Year: 1950; Genre: Drama Romance 
+ID: JLT50; Title: Allan Quatermain and the Lost City of Gold; Director: LeeThompson; Year: 1986; Genre: Adventure 
+ID: JIv42; Title: The Remains of the Day; Director: Ivory; Year: 1993; Genre: Drama 
+ID: GeP15; Title: Murder Most Foul; Director: Pollock; Year: 1964; Genre: Mystery 
+ID: ArH205; Title: The Klansmen; Director: Hiller; Year: 1968; Genre: Drama 
+ID: MBo12; Title: The Legend of Aneus; Director: Bonnard; Year: 1962; Genre: null 
+ID: JaS13; Title: The Dark Pool; Director: Smight; Year: 1963; Genre: Thriller 
+ID: KRu25; Title: Rainbow; Director: K.Russell; Year: 1989; Genre: Drama 
+ID: MAp43; Title: Moving the Mountain; Director: Apted; Year: 1994; Genre: Documentary 
+ID: JRl10; Title: Virgins and Vampires; Director: Rollin; Year: 1972; Genre: Adult 
+ID: JKp35; Title: Brokedown Palace; Director: J.Kaplan; Year: 1999; Genre: Thriller 
+ID: GeM17; Title: Lorenzo's Oil; Director: Geo.Miller; Year: 1992; Genre: Documentary Thriller Drama 
+ID: NiM30; Title: Star Trek, Generations; Director: N.Meyer; Year: 1994; Genre: Sci-Fi 
+ID: FOR12; Title: Scream Queen Hot Tub Party; Director: F.O.Ray; Year: 1984; Genre: Adult 
+ID: PAl4; Title: Matador; Director: Almodovar; Year: 1985; Genre: Comedy 
+ID: BLe5; Title: Tin Men; Director: B.Levinson; Year: 1987; Genre: Comedy 
+ID: KaK10; Title: Another Way; Director: Makk; Year: 1982; Genre: Thriller 
+ID: AKo15; Title: The Inner Circle; Director: Konchalovsky; Year: 1992; Genre: null 
+ID: MiM10; Title: I Got the Hook-Up; Director: M.Martin; Year: 1998; Genre: Comedy 
+ID: NtB10; Title: On the Ropes; Director: Burstein; Year: 1999; Genre: Documentary 
+ID: SfG1; Title: Lost in Translation; Director: Sofia~Coppola; Year: 2003; Genre: Romance 
